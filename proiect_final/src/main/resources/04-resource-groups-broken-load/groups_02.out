@@ -1,0 +1,23 @@
+ADD GROUP: 87.92.104.1
+ADD GROUP: MissingIpAddressException: Server IP Address was not provided. ## line no: 2
+ADD MEMBER: 87.92.104.1: name = Ilie && role = Admin
+ADD MEMBER: MissingIpAddressException: Server IP Address was not provided. ## line no: 4
+ADD MEMBER: 87.92.104.1: name = Matei && role = Operator
+ADD MEMBER: 87.92.104.1: name = Flavius && role = Admin
+ADD MEMBER: 87.92.104.1: name = Adrian && role = Operator
+FIND MEMBER: 87.92.104.1: name = Matei && role = Operator
+FIND MEMBER: Member not found: ipAddress = 87.92.104.1: name = Marius && role = Operator
+FIND MEMBER: Group not found: ipAddress = 87.92
+FIND MEMBER: MissingIpAddressException: Server IP Address was not provided. ## line no: 11
+FIND MEMBER: UserException: Name and role can't be empty. ## line no: 12
+REMOVE MEMBER: 87.92.104.1: name = Matei && role = Operator
+REMOVE MEMBER: Member not found: ipAddress = 87.92.104.1: name = Marius && role = Operator
+REMOVE MEMBER: Group not found: ipAddress = 87.92
+REMOVE MEMBER: MissingIpAddressException: Server IP Address was not provided. ## line no: 16
+REMOVE MEMBER: UserException: Name and role can't be empty. ## line no: 17
+FIND GROUP: Group not found: ipAddress = 87.92
+FIND GROUP: 87.92.104.1
+FIND GROUP: MissingIpAddressException: Server IP Address was not provided. ## line no: 20
+REMOVE GROUP: Group not found: ipAddress = 87.92
+REMOVE GROUP: 87.92.104.1
+REMOVE GROUP: MissingIpAddressException: Server IP Address was not provided. ## line no: 23

@@ -1,0 +1,5 @@
+command|alert_type|alert_severity|ip_address|message
+ADD EVENT|ANOMALY|HIGH|87.92.104.1|Sys anomaly
+ADD EVENT|ADVISORY|MEDIUM|82.45.83.41|RAM usage 65%
+ADD EVENT|ADVISORY|HIGH|79.88.22.5|Storage usage 85%
+ADD EVENT|ANOMALY|CRITICAL|79.88.22.5|DDoS

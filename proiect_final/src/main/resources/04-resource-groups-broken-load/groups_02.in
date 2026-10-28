@@ -1,0 +1,24 @@
+command|ip_address|use_name|user_role|user_email|department|clearance_level
+ADD GROUP|87.92.104.1|||||
+ADD GROUP||||||
+ADD MEMBER|87.92.104.1|Ilie|Admin|ilie@server.ro|R&D|10
+ADD MEMBER||Ilie|Admin|ilie@server.ro|R&D|10
+ADD MEMBER|87.92.104.1|Matei|Operator|matei@server.com|R&D|
+ADD MEMBER|87.92.104.1|Flavius|Admin|flavius@server.com|IT&C|7
+ADD MEMBER|87.92.104.1|Adrian|Operator|adrian@server.com|IT&C|
+FIND MEMBER|87.92.104.1|Matei|Operator|||
+FIND MEMBER|87.92.104.1|Marius|Operator|||
+FIND MEMBER|87.92|Matei|Operator|||
+FIND MEMBER||Marius|Operator|||
+FIND MEMBER|87.92.104.1||Operator|||
+REMOVE MEMBER|87.92.104.1|Matei|Operator|||
+REMOVE MEMBER|87.92.104.1|Marius|Operator|||
+REMOVE MEMBER|87.92|Matei|Operator|||
+REMOVE MEMBER||Matei|Operator|||
+REMOVE MEMBER|87.92.104.1||Operator|||
+FIND GROUP|87.92|||||
+FIND GROUP|87.92.104.1|||||
+FIND GROUP||||||
+REMOVE GROUP|87.92|||||
+REMOVE GROUP|87.92.104.1|||||
+REMOVE GROUP||||||

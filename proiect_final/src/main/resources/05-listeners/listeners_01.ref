@@ -1,0 +1,4 @@
+ADD EVENT: 87.92.104.1: type = ANOMALY && severity = HIGH && message = Sys anomaly
+ADD EVENT: 82.45.83.41: type = ADVISORY && severity = MEDIUM && message = RAM usage 65%
+ADD EVENT: 79.88.22.5: type = ADVISORY && severity = HIGH && message = Storage usage 85%
+ADD EVENT: 79.88.22.5: type = ANOMALY && severity = CRITICAL && message = DDoS

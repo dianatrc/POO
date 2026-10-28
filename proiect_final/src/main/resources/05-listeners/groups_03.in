@@ -1,0 +1,13 @@
+command|ip_address|use_name|user_role|user_email|department|clearance_level
+ADD GROUP|87.92.104.1|||||
+ADD MEMBER|87.92.104.1|Ilie|Admin|ilie@server.ro|R&D|10
+ADD MEMBER|87.92.104.1|Matei|Operator|matei@server.com|R&D|
+ADD MEMBER|87.92.104.1|Flavius|Admin|flavius@server.com|IT&C|7
+ADD MEMBER|87.92.104.1|Adrian|Operator|adrian@server.com|IT&C|
+ADD GROUP|82.45.83.41|||||
+ADD MEMBER|82.45.83.41|Maria|Admin|maria@server.ro|IT|8
+ADD MEMBER|82.45.83.41|Marian|Operator|marian@server.com|R&D|
+ADD GROUP|79.88.22.5|||||
+ADD MEMBER|79.88.22.5|Andrei|Admin|ilie@server.ro|IT&C|9
+ADD MEMBER|79.88.22.5|Maria|Admin|maria@server.ro|IT|8
+ADD MEMBER|79.88.22.5|Matei|Operator|matei@server.com|R&D|

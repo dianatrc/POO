@@ -1,0 +1,12 @@
+ADD GROUP: 87.92.104.1
+ADD MEMBER: 87.92.104.1: name = Ilie && role = Admin
+ADD MEMBER: 87.92.104.1: name = Matei && role = Operator
+ADD MEMBER: 87.92.104.1: name = Flavius && role = Admin
+ADD MEMBER: 87.92.104.1: name = Adrian && role = Operator
+ADD GROUP: 82.45.83.41
+ADD MEMBER: 82.45.83.41: name = Maria && role = Admin
+ADD MEMBER: 82.45.83.41: name = Marian && role = Operator
+ADD GROUP: 79.88.22.5
+ADD MEMBER: 79.88.22.5: name = Andrei && role = Admin
+ADD MEMBER: 79.88.22.5: name = Maria && role = Admin
+ADD MEMBER: 79.88.22.5: name = Matei && role = Operator

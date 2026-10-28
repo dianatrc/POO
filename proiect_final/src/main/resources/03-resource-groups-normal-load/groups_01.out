@@ -1,0 +1,9 @@
+ADD GROUP: 87.92.104.1
+ADD MEMBER: 87.92.104.1: name = Ilie && role = Admin
+ADD MEMBER: 87.92.104.1: name = Matei && role = Operator
+ADD MEMBER: 87.92.104.1: name = Flavius && role = Admin
+ADD MEMBER: 87.92.104.1: name = Adrian && role = Operator
+FIND MEMBER: 87.92.104.1: name = Matei && role = Operator
+REMOVE MEMBER: 87.92.104.1: name = Matei && role = Operator
+FIND GROUP: 87.92.104.1
+REMOVE GROUP: 87.92.104.1
