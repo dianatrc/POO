@@ -1,5 +1,5 @@
 # TEMA 1 - Programare orientate pe obiecte
-## Tararache Diana Cristina 322CB
+**Tararache Diana Cristina 322CB**
 
 Acest proiect implementeaza simularea si gestionarea unei retele energetice a unei colonii autonome pe Marte.
 
